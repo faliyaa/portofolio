@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: #161616;
+}
+
+.circle {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 1px solid white;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    background-color: #1a1a1a;
+}
+
+.circle img {
+    width: 20px;
+}
+
+.navbar-logo{
+    display: flex;
+    align-items: center;
+}
+
+.navbar-logo a{
+    text-decoration: none;
+    color: #6d6d6d;
+    margin-left: 12px;
+}
+
+hr{
+    color: #6d6d6d;
+    margin: 0;
+}
+
+.avatar{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+}
+
+.hero {
+    height: 600px;
+    width: 100%;
+    flex-direction: column;
+    color: white;
+}
+
+.heading {
+    background: linear-gradient(to right, #ebebeb, #6d6d6d);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.btn-hero {
+    background-color: #1a1a1a;
+    padding: 13px 60px;
+    color: white;
+    border: 1px solid #7e7e7e;
+}
+
+.btn-hero:hover {
+    background-color: #ebebeb;
+    color: #161616;
+    border: 1px solid #7e7e7e;
+}
+
+.link-sosmed {
+    text-decoration: none;
+    color: #6d6d6d !important;
+    transition: ease 0.3s;
+}
+
+.link-sosmed:hover{
+    color: #ebebeb;
+}
